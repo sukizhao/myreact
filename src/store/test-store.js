@@ -16,7 +16,7 @@ class Test extends StoreModule {
     @action.bound
     async getSomething() {
         try {
-            const res = await post('/some-data', { type: 'news' })
+            // const res = await post('/some-data', { type: 'news' })
         } catch (err) {
             console.error(err)
         }
