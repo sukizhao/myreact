@@ -1,5 +1,5 @@
-import 'core-js/es6/map';
-import 'core-js/es6/set';
+// import 'core-js/es6/map';
+// import 'core-js/es6/set';
 
 import React from 'react';//创建组建、虚拟dom元素，生命周期
 import ReactDOM from 'react-dom';//把创建好的组建和虚拟dom放在页面上展示

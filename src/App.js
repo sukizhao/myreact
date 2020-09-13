@@ -5,12 +5,12 @@ import {
   Switch
 } from 'react-router-dom';
 import NavReactRedux from './NavReactRedux.js';
-import LoginReactRedux from './page/login/LoginReactRedux.js';
-import HomeReactRedux from './page/home/HomeReactRedux.js';
-import AboutReactRedux from './page/about/AboutReactRedux.js';
-import NewsReactRedux from './page/news/NewsReactRedux.js';
-import PageShowReactRedux from './page/pageshow/PageShowReactRedux.js';
-import NotFind from './page/notFind/NotFind.js';
+import LoginReactRedux from './pages/login/LoginReactRedux.js';
+import HomeReactRedux from './pages/home/HomeReactRedux.js';
+import AboutReactRedux from './pages/about/AboutReactRedux.js';
+import NewsReactRedux from './pages/news/NewsReactRedux.js';
+import PageShowReactRedux from './pages/pageshow/PageShowReactRedux.js';
+import NotFind from './pages/notFind/NotFind.js';
 
 class App extends Component {
   render() {

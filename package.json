@@ -1,13 +1,17 @@
 {
-  "name": "demo-react",
+  "name": "myreact",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "axios": "^0.20.0",
+    "mobx": "^5.15.6",
+    "mobx-react": "^6.3.0",
+    "qs": "^6.9.4",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
     "react-redux": "^5.0.6",
     "react-router": "^4.2.0",
-    "react-router-dom": "^4.2.2",
+    "react-router-dom": "^4.3.1",
     "react-scripts": "1.0.14",
     "redux": "^3.7.2"
   },
@@ -16,5 +20,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@babel/plugin-proposal-decorators": "^7.10.5"
   }
 }
